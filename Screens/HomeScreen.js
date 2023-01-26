@@ -8,7 +8,6 @@ export default function HomeScreen({navigation}) {
     const [data, setData] = useState([]);
     const [page, setPage] = useState(1);
     const [inputValue, setInputValue] = useState("");
-    // next/prev function
 
     function pagingNext() {
         setPage(page + 1);
